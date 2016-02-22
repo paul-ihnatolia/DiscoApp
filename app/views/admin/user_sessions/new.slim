@@ -1,0 +1,17 @@
+.container-center
+  .form-center
+    h3.heading-secondary.text-center Sign in
+    - if @user_session.errors.any?
+      .alert.alert-danger
+        ul
+          - @user_session.errors.full_messages.each do |e|
+            li
+              = e
+    = form_for [:admin, @user_session], html: { id: "login-form", action:"javascript:;", autocomplete: "off", role: 'form' } do |form|
+      .form-group
+        label.sr-only for="email"  Email
+        = form.email_field :email, class: 'email form-control input-md', placeholder: 'Email'
+      .form-group
+        label.sr-only for="password"  Password
+        = form.password_field :password, class: 'key form-control input-md', placeholder: "Password"
+      = form.submit 'Submit', id: 'btn-login', class: 'button button-medium button-primary fluid'

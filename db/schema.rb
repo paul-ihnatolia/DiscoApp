@@ -11,10 +11,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160222145842) do
+ActiveRecord::Schema.define(version: 20160222174738) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "events", force: :cascade do |t|
+    t.string   "title"
+    t.date     "event_date"
+    t.string   "video_url"
+    t.boolean  "is_prior"
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
+    t.string   "banner_file_name"
+    t.string   "banner_content_type"
+    t.integer  "banner_file_size"
+    t.datetime "banner_updated_at"
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "email"

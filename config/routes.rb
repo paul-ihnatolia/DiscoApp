@@ -7,6 +7,7 @@ Rails.application.routes.draw do
       resources :photos, except: :new
     end
     resources :photos, except: :new
+    resources :videos, except: :new
   end
 
   root to: "home#index"

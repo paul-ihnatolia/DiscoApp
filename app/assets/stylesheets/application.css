@@ -12,3 +12,8 @@
  *
  *= require_self
  */
+
+ .hero-bg {
+   background: url('bg.jpg') no-repeat fixed center;
+   background-size: cover;
+ }

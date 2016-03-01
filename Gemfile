@@ -27,6 +27,7 @@ gem 'authlogic'
 gem 'thin'
 gem 'slim'
 gem 'paperclip'
+gem 'figaro'
 # Use Unicorn as the app server
 # gem 'unicorn'
 

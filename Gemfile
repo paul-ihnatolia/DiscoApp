@@ -65,3 +65,5 @@ group :development do
   gem 'capistrano-sidekiq'
   gem 'rails-erd'
 end
+
+gem 'therubyracer', platforms: :ruby

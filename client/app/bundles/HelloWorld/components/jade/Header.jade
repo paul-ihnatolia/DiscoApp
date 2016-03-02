@@ -1,0 +1,39 @@
+section.hero.is-dark.is-left.is-bold
+  .hero-header
+    header.header
+      .container
+        .header-left
+          a.header-item.title.is-4
+            | DISCO ADMIN
+            // img(src='http://45.55.9.15/images/nav-logo.png')
+        span#header-toggle.header-toggle
+          span
+          span
+          span
+
+        #header-menu.header-right.header-menu
+          span.header-item
+            a
+              | Preview
+
+          span.header-item
+            a.button.is-info.is-outlined.is-inverted
+              i.fa.fa-sign-out
+              | Log out
+
+
+  .hero-content
+    .container
+      .title
+        =pageTitle
+      .subtitle
+        =pageDescription
+
+  .hero-footer
+    .tabs.is-boxed
+      .container
+        ul
+          li.is-active
+            a Events
+          li
+            a Club

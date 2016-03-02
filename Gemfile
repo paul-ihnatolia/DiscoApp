@@ -62,6 +62,7 @@ end
 group :development do
   gem 'capistrano-rails'
   gem 'capistrano-rvm'
+  gem 'capistrano-npm'
   gem 'capistrano-passenger'
   gem 'capistrano-sidekiq'
   gem 'rails-erd'

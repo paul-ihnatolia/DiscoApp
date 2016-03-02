@@ -40,6 +40,8 @@ set :rvm_ruby_version, '2.2.2@disco'
 
 set :passenger_restart_with_touch, true
 
+set :npm_target_path, -> { release_path.join('client') }
+
 namespace :deploy do
 
   after :restart, :clear_cache do

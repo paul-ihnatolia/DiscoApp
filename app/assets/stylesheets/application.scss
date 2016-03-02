@@ -14,6 +14,6 @@
  */
 
  .hero-bg {
-   background: image-url("bg.png") no-repeat fixed center;
+   background: url(image_path('bg.jpg')) no-repeat fixed center;
    background-size: cover;
  }

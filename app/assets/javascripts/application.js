@@ -3,7 +3,8 @@
 
 // CRITICAL that generated/vendor-bundle must be BEFORE bootstrap-sprockets and turbolinks
 // since it is exposing jQuery and jQuery-ujs
-
+//= require generated/vendor-bundle
+//= require generated/app-bundle
 
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.

@@ -33,8 +33,7 @@ gem 'figaro'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
-gem "react_on_rails", "~> 3"
+gem 'react-rails', '~> 1.6.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -62,7 +61,6 @@ end
 group :development do
   gem 'capistrano-rails'
   gem 'capistrano-rvm'
-  gem 'capistrano-npm'
   gem 'capistrano-passenger'
   gem 'capistrano-sidekiq'
   gem 'rails-erd'

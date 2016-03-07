@@ -67,3 +67,5 @@ group :development do
 end
 
 gem 'therubyracer', platforms: :ruby
+
+gem 'bootstrap-sass'

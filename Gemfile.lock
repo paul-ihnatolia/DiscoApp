@@ -43,7 +43,13 @@ GEM
       activesupport (>= 3.2)
       request_store (~> 1.0)
       scrypt (>= 1.2, < 3.0)
+    autoprefixer-rails (6.1.2)
+      execjs
+      json
     bcrypt (3.1.10)
+    bootstrap-sass (3.3.6)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     builder (3.2.2)
     byebug (8.2.2)
     capistrano (3.4.0)
@@ -311,6 +317,7 @@ PLATFORMS
 DEPENDENCIES
   authlogic
   bcrypt (~> 3.1.7)
+  bootstrap-sass
   byebug
   capistrano-passenger
   capistrano-rails

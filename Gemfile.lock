@@ -1,11 +1,3 @@
-GIT
-  remote: git@github.com:Eventshare/angular-rails-templates.git
-  revision: 99a51adb7daf6a269c5c10f88bdfb980d7d0e6fc
-  specs:
-    angular-rails-templates (0.2.0)
-      railties (>= 3.1)
-      sprockets (~> 3)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -320,7 +312,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  angular-rails-templates!
   authlogic
   bcrypt (~> 3.1.7)
   bower-rails

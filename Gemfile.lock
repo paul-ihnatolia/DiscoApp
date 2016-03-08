@@ -1,3 +1,11 @@
+GIT
+  remote: git@github.com:Eventshare/angular-rails-templates.git
+  revision: 99a51adb7daf6a269c5c10f88bdfb980d7d0e6fc
+  specs:
+    angular-rails-templates (0.2.0)
+      railties (>= 3.1)
+      sprockets (~> 3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -48,6 +56,7 @@ GEM
       babel-source (>= 4.0, < 6)
       execjs (~> 2.0)
     bcrypt (3.1.10)
+    bower-rails (0.10.0)
     builder (3.2.2)
     byebug (8.2.2)
     capistrano (3.4.0)
@@ -311,8 +320,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  angular-rails-templates!
   authlogic
   bcrypt (~> 3.1.7)
+  bower-rails
   byebug
   capistrano-passenger
   capistrano-rails

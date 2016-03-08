@@ -28,6 +28,8 @@ gem 'thin'
 gem 'slim'
 gem 'paperclip'
 gem 'figaro'
+gem 'bower-rails'
+gem 'angular-rails-templates', git: 'git@github.com:Eventshare/angular-rails-templates.git'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
